@@ -37,7 +37,7 @@ h1{
 #food-section .divided-div img{
     width: 100%;
 }
-#food-section .divided-div p{
+#food-section .divided-div p,#recipies-section .section-title{
     color:#7e7b7b;
 }
 .food-section-content{
@@ -68,11 +68,14 @@ padding-bottom: 20px;
     padding-bottom: 20px;
 }
 #recipies-section{
-    margin-top: 100px;
-    height: 700px;
+    margin-top: 50px;
+    height: 600px;
 }
 #recipies-section .section-title, .section-content{
     text-align: center;
+}
+#recipies-section .section-content,.recipies-divided p{
+    font-size: 13px;
 }
 .recipies-divided{
     width: 23%;
@@ -83,7 +86,9 @@ padding-bottom: 20px;
 }
 .recipies-divided img{
     width: 100%;
+    height: 175px;
 }
+
 .recipies-area{
     margin-top: 50px;
 }
@@ -95,8 +100,27 @@ padding-bottom: 20px;
 .recipies-area h3{
     font-size: 30px;
 }
-
-
+#number-section{
+    height: 300px;
+    padding: 0px 17px;
+}
+.number-divided{
+    width: 23%;
+    float: left;
+    margin-left: 5%;
+    padding: 10px 30px;
+    text-align: center;
+}
+.number-divided h4{
+    font-size: 30px;
+}
+.number-div{
+    width: 95%;
+    margin-left: 4%;
+    float: left;
+    box-shadow: 5px 7px 40px grey;
+    border-radius: 15px;
+}
 footer{
     background-color: rgb(22, 22, 22);
     padding: 10px 0px;
