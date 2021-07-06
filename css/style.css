@@ -29,25 +29,25 @@ h1{
     color: gray;
 }
 
-
+/* ========================FOOD SECTION============================== */
 #food-section{
     height: 500px;
     padding-bottom: 150px;
 }
 #food-section .divided-div img{
-    width: 100%;
+    width: 95%;
 }
 #food-section .divided-div p,#recipies-section .section-title{
     color:#7e7b7b;
 }
 .food-section-content{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .food-section-content p{
 padding-bottom: 20px;
 }
 
-
+/* ========================ABOUT SECTION============================== */
 #about-section{
     background-image: url(../images/about-bg.png);
     background-repeat: no-repeat;
@@ -67,9 +67,11 @@ padding-bottom: 20px;
 .about-content p{
     padding-bottom: 20px;
 }
+
+/* ========================RECIPIES SECTION============================== */
 #recipies-section{
-    margin-top: 50px;
-    height: 600px;
+    height: 675px;
+    margin-top: 80px;
 }
 #recipies-section .section-title, .section-content{
     text-align: center;
@@ -78,10 +80,10 @@ padding-bottom: 20px;
     font-size: 13px;
 }
 .recipies-divided{
-    width: 23%;
+    width: 17%;
     float: left;
-    margin-left: 5%;
-    padding: 10px 30px;
+    margin-left: 8%;
+    padding: 25px 30px;
     text-align: justify;
 }
 .recipies-divided img{
@@ -100,12 +102,14 @@ padding-bottom: 20px;
 .recipies-area h3{
     font-size: 30px;
 }
+
+/* ========================NUMBER SECTION============================== */
 #number-section{
     height: 300px;
     padding: 0px 17px;
 }
 .number-divided{
-    width: 23%;
+    width: 20%;
     float: left;
     margin-left: 5%;
     padding: 10px 30px;
@@ -115,12 +119,14 @@ padding-bottom: 20px;
     font-size: 30px;
 }
 .number-div{
-    width: 95%;
-    margin-left: 4%;
+    width: 84%;
+    margin-left: 7%;
     float: left;
     box-shadow: 5px 7px 40px grey;
     border-radius: 15px;
 }
+
+/* ========================FOOTER SECTION============================== */
 footer{
     background-color: rgb(22, 22, 22);
     padding: 10px 0px;
